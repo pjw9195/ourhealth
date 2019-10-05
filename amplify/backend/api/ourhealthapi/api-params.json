@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "ourhealth",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "ourhealthapi",
+    "apiName": "ourhealthapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "ourhealth"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "ourhealth-dev-20191005152540-authRole",
+        "unAuthRoleName": "ourhealth-dev-20191005152540-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ourhealth",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

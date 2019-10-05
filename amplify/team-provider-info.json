@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ourhealth-dev-20191005152540-authRole",
+            "UnauthRoleArn": "arn:aws:iam::022995118196:role/ourhealth-dev-20191005152540-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::022995118196:role/ourhealth-dev-20191005152540-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "ourhealth-dev-20191005152540-deployment",
+            "UnauthRoleName": "ourhealth-dev-20191005152540-unauthRole",
+            "StackName": "ourhealth-dev-20191005152540",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:022995118196:stack/ourhealth-dev-20191005152540/f42cc3b0-e738-11e9-a135-06191eeb3fae"
+        },
+        "categories": {
+            "auth": {
+                "ourhealth7060cf16": {}
+            }
+        }
+    }
+}
